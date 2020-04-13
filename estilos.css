@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu{
+    background: #fff;
+    padding: 9px 20px;
+}
+
+.menu .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: #000;
+}
+
+/* ESTILOS */
+
+#intro{
+    background: url(imagenes/back.jpg);
+    text-align: center;
+    height: 65vh;
+    margin-top: -60px;
+    background-size: cover;
+    background-position: 57% 48%;
+}
+
+#intro h1{
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 60px;
+}
+
+#intro p{
+    color: #bfbfbf;
+    font-size: 18px;
+    line-height: 36px;
+    width: 60%;
+    margin: auto;
+}
+
+#intro .menu{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    background: transparent;
+}
+
+#intro .reservation{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px;
+    background: #c39d63;
+}
+
+#intro .botones {
+    margin-top: 50px;
+}
+
+#intro .botones a{
+    margin-right: 20px;
+}
+
