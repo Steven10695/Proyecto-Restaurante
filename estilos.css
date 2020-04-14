@@ -128,3 +128,86 @@ hr{
 #our-story .izquierda{
     width: 45%;
 }
+
+/* CARTA */
+
+#menu {
+    background: #1f1f1f;
+    margin-bottom: 100px;
+}
+
+#menu .foto{
+    background: url(imagenes/cangrejo.png);
+    width: 300px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu .linea1 div, #menu .linea2 div{
+    display: inline-block;
+    width: 33.1%;
+}
+
+#menu .linea1, #menu .linea2{
+    background: #fff;
+    text-align: center;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu .precio{
+    color: #c29d62;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#menu .titulo{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#menu .parrafo{
+    color: #939393;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#menu .hongos{
+    background: url(imagenes/hongos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -11px;
+    left: -13px;
+}
+
+#menu .pez{
+    background: url(imagenes/pez.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -11px;
+    right: -13px;
+}
+
+#menu .contenedor{
+    max-width: 1130px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu .texto{
+    position: relative;
+    top: -30px;
+}
+
+#menu .linea2{
+    height: 275px;
+}
