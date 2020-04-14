@@ -86,6 +86,7 @@ nav ul li a{
 
 #intro .botones a{
     margin-right: 20px;
+    padding: 9px 23px;
 }
 
 /* OUT STORY */
@@ -111,14 +112,14 @@ hr{
     border-color: #c29063;
 }
 
-#our-story h2{
+#our-story h2, #testimonials h2{
     margin-top: 50px;
     font-family: 'Playfair Display';
     font-size: 48px;
     font-weight: 300;
 }
 
-#out-story .texto{
+#out-story .texto, #testimonials .texto{
     font-size: 17px;
     color: #939393;
     line-height: 30px;
@@ -133,7 +134,7 @@ hr{
 
 #menu {
     background: #1f1f1f;
-    margin-bottom: 100px;
+    margin-bottom: 0;
 }
 
 #menu .foto{
@@ -210,4 +211,43 @@ hr{
 
 #menu .linea2{
     height: 275px;
+}
+
+/* TESTIOMINALS */
+
+#testimonials{
+    text-align: center;
+    background: #f7f7f7;
+    padding: 90px 0;
+}
+
+#testimonials .titulo{
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#testimonials hr{
+    width: 40px;
+    float: none;
+    font-weight: 700;
+}
+
+.contenedor-testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial{
+    width: 25%;
+    text-align: left;
+}
+
+.testimonial img{
+    width: 55%;
+}
+
+#testimonials .contenedor{
+    max-width: 1150px;
 }
