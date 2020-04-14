@@ -88,3 +88,43 @@ nav ul li a{
     margin-right: 20px;
 }
 
+/* OUT STORY */
+
+#our-story{
+    padding: 90px 0;
+}
+
+#our-story .contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.our-story {
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+hr{
+    width: 40px;
+    float: left;
+    border-color: #c29063;
+}
+
+#our-story h2{
+    margin-top: 50px;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-weight: 300;
+}
+
+#out-story .texto{
+    font-size: 17px;
+    color: #939393;
+    line-height: 30px;
+    width: 88%;
+}
+
+#our-story .izquierda{
+    width: 45%;
+}
