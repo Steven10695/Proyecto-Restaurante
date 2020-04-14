@@ -17,6 +17,11 @@ a{
 .menu{
     background: #fff;
     padding: 9px 20px;
+    width: 100%;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .menu .contenedor{
@@ -119,7 +124,7 @@ hr{
     font-weight: 300;
 }
 
-#out-story .texto, #testimonials .texto{
+#our-story .texto, .testimonial .texto{
     font-size: 17px;
     color: #939393;
     line-height: 30px;
@@ -369,4 +374,132 @@ input[type="submit"]{
     font-size: 16px;
 }
 
+@media screen and (max-width: 800px){
+
+    nav {
+        position: absolute;
+        top: 84px;
+        left: 0;
+        background: #000;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+    
+
+    header .logo{
+        font-size: 20px;
+    }
+
+    #intro{
+        margin-top: -35px;
+    }
+
+    #intro h1 {
+        font-size: 37px;
+    }
+
+    #intro p {
+        font-size: 13px;
+        line-height: 22px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .our-story {
+        margin-top: -45px;
+    }
+
+    #our-story .contenedor{
+        flex-direction: column;
+    }
+
+    #our-story .izquierda{
+        width: 100%;
+    }
+
+    #our-story h2{
+        font-size: 40px;
+    }
+
+    #our-story .derecha img {
+        width: 100%;
+    }
+
+    #our-story .texto{
+        margin-bottom: 40px;
+    }   
+
+    #menu .linea1 div, #menu .linea2 div {
+        display: block;
+        width: 100%;
+    }
+
+    #menu #texto-2{
+        position: relative; 
+        top: 18px;
+    }
+
+    .linea2 .hongos{
+        width: 100% !important;
+        top: 30px !important;
+        left: 0px !important;
+    }
+
+    #menu {
+        height: 1655px;
+    }
+
+    #menu #ultimo{
+        width: 100% !important;
+        top: 52px;
+    }
+    
+    .linea2 .pez{
+        width: 100% !important;
+        top: 25px !important;
+        left: 0px !important;
+    }
+
+    #menu .linea2{
+        height: 623px;
+    }
+
+    #menu .linea1{
+        padding-top: 25px;
+    }
+
+    .contenedor-testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    #contacto .contenedor {
+        flex-direction: column;
+    }
+
+    #contacto .izquierda, #contacto .derecha {
+        width: 81%;
+    }       
+
+    .derecha {
+        width: 98% !important;
+        margin-top: 57px;
+    }
+
+
+
+
+}
 
